@@ -13,24 +13,27 @@ export default function ProjectBlueprintView() {
     const markdownContent = `AI PRODUCTIVITY COMPANION — PROJECT DESCRIPTION PORTFOLIO
 
 =========================================
-1. PROBLEM STATEMENT SELECTED: THE CHAOS OF FRAGMENTED PRODUCTIVITY
+1. PROBLEM STATEMENT SELECTED: THE LAST-MINUTE LIFE SAVER
 =========================================
-Modern knowledge workers, developers, and students face severe cognitive overload and tool fatigue. 
-The current productivity ecosystem is deeply fragmented:
-* Scattered State: Tasks live in one app, calendar schedules live in another, daily habits are tracked on mobile devices, and conceptual notes are trapped in text documents. This lack of centralized context leads to visual noise and constant context switching.
-* Execution Paralysis: Having a long list of tasks does not equate to an active daily plan. Users struggle to prioritize effectively (e.g., separating urgent fire drills from long-term, non-urgent yet important goals) and fail to break down complex, multi-phase objectives into executable milestones.
-* Tactical-Strategic Disconnect: Standard planners are either purely tactical (adding a single task) or purely strategic (writing a high-level goal). There is no active bridge connecting daily tactical overrides (instant adjustments) with automated high-level strategic planning.
+Background:
+Students, professionals, and entrepreneurs frequently miss deadlines, assignments, meetings, bill payments, interviews, and important commitments. Existing productivity tools often rely on passive reminders that are easy to ignore and do little to help users actually complete their tasks.
+
+Challenge:
+Build an AI-powered productivity companion that proactively assists users in planning, prioritizing, and completing tasks before deadlines are missed. The solution should move beyond traditional passive reminders and focus on helping users take meaningful action.
+
+Evaluation Focus:
+The solution demonstrates how AI can improve productivity by helping users make better decisions and complete tasks more effectively.
 
 =========================================
 2. SOLUTION OVERVIEW
 =========================================
-The AI Productivity Companion is an elite, full-stack, AI-powered workspace designed to unify tactical scheduling, autonomous strategy formulation, habit mechanics, and auditory guidance into a cohesive single-screen environment.
+The AI Productivity Companion is an elite, full-stack, AI-powered workspace designed to proactively assist users in planning, prioritizing, and completing tasks before deadlines are missed. It unifies tactical scheduling, autonomous strategy formulation, habit mechanics, and auditory guidance into a cohesive single-screen environment.
 
 At the heart of the solution is the Synergetic Executive Loop, which bridges the gap between:
 * Immediate Tactical Action: Managed via the Strategic Command Console (supporting voice-to-text, quick overrides, and spoken voice syntheses).
 * Autonomous Strategic Design: Managed via the Autonomous Planning Hub (driven by the server-side Gemini API to break down high-level objectives into multi-phase schedules).
 
-By pairing these two paradigms, the application automates cognitive layout (via the Eisenhower Matrix), recommends optimal calendar time-blocks, and provides real-time spoken coaching, ensuring knowledge workers stay in deep focus.
+By pairing these two paradigms, the application automates cognitive layout (via the Eisenhower Matrix), recommends optimal calendar time-blocks, and provides real-time spoken coaching, ensuring knowledge workers take meaningful action.
 
 =========================================
 3. KEY FEATURES
@@ -116,22 +119,22 @@ B. Driving the Planning Hub BY the Command Console
               <h3 className="text-sm font-black text-slate-900 font-display uppercase tracking-tight">1. Problem Statement Selected</h3>
             </div>
             <div className="space-y-3">
-              <h4 className="text-xs font-extrabold text-slate-800 uppercase tracking-wide">The Chaos of Fragmented Productivity</h4>
+              <h4 className="text-xs font-extrabold text-slate-800 uppercase tracking-wide">The Last-Minute Life Saver</h4>
               <p className="text-xs text-slate-600 leading-relaxed font-medium">
-                Modern knowledge workers, developers, and students navigate an environment of extreme <strong>cognitive overload</strong>. Because task managers, time-trackers, scheduling calendars, and notes software exist in separate silos, users suffer from <strong>tool fatigue</strong> and constant context-switching.
+                Students, professionals, and entrepreneurs frequently miss deadlines, assignments, meetings, bill payments, interviews, and important commitments. Existing productivity tools rely on passive reminders that are easy to ignore and do little to assist users in taking actual action.
               </p>
               <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
                 <li className="p-3 rounded-xl bg-slate-50 border border-slate-150 text-slate-700">
-                  <span className="text-xs font-extrabold text-slate-900 block mb-1">Scattered State</span>
-                  <p className="text-[10px] text-slate-500 font-medium leading-relaxed">Tasks, timelines, habits, and advisor feedback are spread across disconnected platforms.</p>
+                  <span className="text-xs font-extrabold text-slate-900 block mb-1">The Problem</span>
+                  <p className="text-[10px] text-slate-500 font-medium leading-relaxed">Users frequently ignore passive alerts, leading to missed assignments, bill payments, and commitments.</p>
                 </li>
                 <li className="p-3 rounded-xl bg-slate-50 border border-slate-150 text-slate-700">
-                  <span className="text-xs font-extrabold text-slate-900 block mb-1">Execution Paralysis</span>
-                  <p className="text-[10px] text-slate-500 font-medium leading-relaxed">Long static todo lists are paralyzing because they fail to schedule or prioritize items dynamically.</p>
+                  <span className="text-xs font-extrabold text-slate-900 block mb-1">The Challenge</span>
+                  <p className="text-[10px] text-slate-500 font-medium leading-relaxed">Build an AI companion that proactively assists in planning, prioritizing, and completing tasks before deadlines.</p>
                 </li>
-                <li className="p-3 rounded-xl bg-slate-50 border border-slate-150 text-slate-700">
-                  <span className="text-xs font-extrabold text-slate-900 block mb-1">Tactical-Strategic Gap</span>
-                  <p className="text-[10px] text-slate-500 font-medium leading-relaxed">No direct communication loop between real-time micro-overrides and high-level macro planning.</p>
+                <li className="p-3 rounded-xl bg-indigo-50/50 border border-indigo-100 text-indigo-950">
+                  <span className="text-xs font-extrabold text-indigo-900 block mb-1">Evaluation Focus</span>
+                  <p className="text-[10px] text-indigo-950/70 font-medium leading-relaxed">Demonstrate how AI improves productivity by helping users make better decisions and take meaningful action.</p>
                 </li>
               </ul>
             </div>

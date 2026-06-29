@@ -4,25 +4,28 @@ This document outlines the architectural details, problem statements, comprehens
 
 ---
 
-## 1. Problem Statement Selected
+## 1. Problem Statement Selected: "The Last-Minute Life Saver"
 
-### The Chaos of Fragmented Productivity
-Modern knowledge workers, developers, and students face severe **cognitive overload** and **tool fatigue**. The current productivity ecosystem is deeply fragmented:
-1. **Scattered State**: Tasks live in Jira or Todoist, schedules live in Google Calendar, daily habits reside in mobile apps, and conceptual notes are trapped in Google Docs. This lack of centralized context leads to visual noise and constant context switching.
-2. **Execution Paralysis**: Having a long list of tasks does not equate to a plan. Users struggle to prioritize tasks effectively (e.g., separating urgent fire drills from long-term important goals) and fail to break down complex, multi-phase objectives into executable milestones.
-3. **Tactical-Strategic Disconnect**: Standard planners are either purely tactical (adding a single task) or purely strategic (writing a high-level goal). There is no active bridge connecting daily tactical overrides (instant adjustments) with automated high-level strategic planning.
+### Background
+Students, professionals, and entrepreneurs frequently miss deadlines, assignments, meetings, bill payments, interviews, and important commitments. Existing productivity tools often rely on passive reminders that are easy to ignore and do little to help users actually complete their tasks.
+
+### Challenge
+Build an AI-powered productivity companion that proactively assists users in planning, prioritizing, and completing tasks before deadlines are missed. The solution moves beyond traditional passive notifications and focuses entirely on driving meaningful user action.
+
+### Evaluation Focus
+The solution demonstrates how artificial intelligence can structurally improve productivity by helping users make optimal, real-time choices, establish reliable routines, and execute complex objectives through structured schedules.
 
 ---
 
 ## 2. Solution Overview
 
-The **AI Productivity Companion** is an elite, full-stack, AI-powered workspace designed to unify tactical scheduling, autonomous strategy formulation, habit mechanics, and auditory guidance into a cohesive single-screen environment.
+The **AI Productivity Companion** is an elite, full-stack, AI-powered workspace designed to tackle **The Last-Minute Life Saver** challenge. It unifies tactical scheduling, autonomous goal decomposition, streak-based habits, and real-time auditory coaching into a cohesive single-screen dashboard.
 
-At the heart of the solution is the **Synergetic Executive Loop**, which bridges the gap between:
-- **Immediate Tactical Action**: Managed via the **Strategic Command Console** (supporting voice-to-text, quick overrides, and spoken voice syntheses).
-- **Autonomous Strategic Design**: Managed via the **Autonomous Planning Hub** (driven by the server-side Gemini API to break down high-level objectives into multi-phase schedules).
+Instead of annoying, easily ignored passive notification popups, this companion integrates an active **Synergetic Executive Loop**:
+*   **Immediate Tactical Action**: Managed via the **Strategic Command Console** (supporting text overrides, quick inserts, and speech synthesis).
+*   **Autonomous Strategic Design**: Managed via the **Autonomous Planning Hub** (driven by the server-side Gemini API to break down high-level deadlines and commitments into multi-phase checklists).
 
-By pairing these two paradigms, the application automates cognitive layout (via the Eisenhower Matrix), recommends optimal calendar time-blocks, and provides real-time spoken coaching, ensuring knowledge workers stay in deep focus.
+By pairing these two paradigms, the system automatically runs cognitive layouts (via the Eisenhower Priority Matrix), maps recommended daily calendar slots, and delivers context-aware spoken productivity recommendations to help users complete work before deadlines slip.
 
 ---
 
