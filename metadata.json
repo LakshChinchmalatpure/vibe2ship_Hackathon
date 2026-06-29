@@ -1,0 +1,6 @@
+{
+  "name": "AI Productivity Companion",
+  "description": "An elite, full-stack AI-powered productivity advisor and planner that intelligently schedules tasks, deconstructs goals, tracks habits, hosts an integrated Pomodoro timer with study flashcards, and provides spoken voice feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
